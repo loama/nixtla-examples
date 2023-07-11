@@ -58,21 +58,21 @@ onMounted(() => {
       datasets: [{
         label: 'Historic Sales',
         data: [
-          40802, 40300, 58009, 60032, 58032, 63400, 65400, 67400, 69400, 71400, 73400, 75400, 77400, 79400, 81400, 83400, 85400, 87400, 89400
+          2453.21, 3101.34, 2803.59, 3204.78, 2655.65, 2907.43, 3352.74, 2754.92, 3055.47, 2951.33, 3253.41, 2703.88, 2805.91, 3302.09, 3151.63, 2852.92, 3001.79, 3102.34, 2904.29
         ],
         borderWidth: 1,
         borderColor: 'rgba(2, 132, 199, 1)',
       },{
         label: 'Predicted',
         data: [
-          null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 89400,
-          79734.0234375,
-          81709,
-          83866.09375,
-          85866.3203125,
-          87826.3203125,
-          76000,
-          78000
+          null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2904.29,
+          3108.94189453125,
+          2873.6337890625,
+          2995.2666015625,
+          3116.960693359375,
+          2883.7666015625,
+          2816.06201171875,
+          3307.155029296875
         ],
         borderWidth: 1,
         borderColor: 'rgba(0,0,0,0.5)',
@@ -82,14 +82,14 @@ onMounted(() => {
       {
         label: 'Predicted High',
         data: [
-          null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 89400,
-          99574.9268577018,
-          109768.2747065841,
-          118231.5465418566,
-          125548.12715290357,
-          132191.92909507928,
-          124600.08941533594,
-          130494.0962367048
+          null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2904.29,
+          3732.224888385894,
+          3755.089052168244,
+          4074.8244144123837,
+          4363.526681068663,
+          4277.469745041068,
+          4342.787312016891,
+          4956.2068274520625
         ],
         borderWidth: 1,
         borderColor: 'green',
@@ -100,14 +100,14 @@ onMounted(() => {
       {
         label: 'Predicted Low',
         data: [
-          null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 89400,
-          59893.12001729821,
-          53649.725293415904,
-          49500.64095814339,
-          46184.51347209643,
-          43460.71152992073,
-          27399.910584664052,
-          25505.903763295195
+          null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2904.29,
+          2485.658900676606,
+          1992.178525956756,
+          1915.7087887126163,
+          1870.3947056500872,
+          1490.0634580839323,
+          1289.3367114206092,
+          1658.1032311416875
         ],
         borderWidth: 1,
         borderColor: 'orange',
