@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-8">
     <StripeChart v-if="Object.keys(storeAPIs.stripeForecast).length > 0" />
   
     <div class="mt-8"></div>
@@ -13,8 +13,6 @@
       <div class="border bg-zinc-100 text-center w-40">{{ key.split(' ')[0] }}</div>
       <div class="border bg-zinc-100 text-center w-40">{{ value.toFixed(0) }}</div>
     </div>
-
-    {{ storeAPIs.stripeForecast }}
   </div>
 </template>
 

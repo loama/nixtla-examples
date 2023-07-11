@@ -66,7 +66,7 @@ onMounted(() => {
         borderWidth: 1,
         borderColor: 'rgba(0,0,0,0.5)',
         borderDash: [5, 5],
-        fill: '-1'
+        fill: ''
       },
       {
         label: 'Predicted High',
@@ -75,7 +75,7 @@ onMounted(() => {
         borderColor: 'green',
         borderDash: [5, 5],
         backgroundColor: 'rgba(0,255,0,0.1)',
-        fill: '-1'
+        fill: '1'
       },
       {
         label: 'Predicted Low',
@@ -84,7 +84,7 @@ onMounted(() => {
         borderColor: 'orange',
         borderDash: [5, 5],
         backgroundColor: 'rgba(255,0,0,0.1)',
-        fill: '-1'
+        fill: '1'
       }]
     },
     options: {
