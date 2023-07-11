@@ -18,6 +18,7 @@
     "@headlessui/vue": "^1.7.14",
     "@heroicons/vue": "^2.0.18",
     "@pinia/nuxt": "^0.4.11",
+    "@vercel/analytics": "^1.0.1",
     "pinia": "^2.1.4",
     "sass": "^1.63.6"
   },
