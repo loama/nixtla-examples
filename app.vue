@@ -8,6 +8,11 @@
   </div>
 </template>
 
+<script setup>
+import { inject } from '@vercel/analytics'
+onMounted(() => inject())
+</script>
+
 <style lang="sass" scoped>
 #app
   background: #F7F7F7
