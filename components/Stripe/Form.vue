@@ -32,8 +32,6 @@
       </button>
     </div>
   </div>
-
-  {{ storeAPIs.stripeTransactions }}
 </template>
 
 <script setup>
